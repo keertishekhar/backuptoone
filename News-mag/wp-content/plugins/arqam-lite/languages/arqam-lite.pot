@@ -1,0 +1,428 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Arqam Lite\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-04-15 13:18+0400\n"
+"PO-Revision-Date: 2016-06-19 14:44+0200\n"
+"Last-Translator: Fouad Badawy <support@tielabs.com>\n"
+"Language-Team: TieLabs <info@tielabs.com>\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: gettext;gettext_noop;_e;__;esc_attr__;esc_html__;"
+"esc_html_e;_n:1,2;_n_noop:1,2;_nx:1,2;_nx_noop:1,2;_x\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Generator: Poedit 2.0.6\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SearchPath-0: languages\n"
+"X-Poedit-SearchPath-1: .\n"
+
+#: arqam-lite-admin.php:53
+msgid "Arqam Lite - Social Counters"
+msgstr ""
+
+#: arqam-lite-admin.php:54
+msgid "Arqam Lite"
+msgstr ""
+
+#: arqam-lite-admin.php:209 arqam-lite-admin.php:216
+msgid "Facebook App info"
+msgstr ""
+
+#: arqam-lite-admin.php:221 arqam-lite-admin.php:302
+msgid "App ID"
+msgstr ""
+
+#: arqam-lite-admin.php:225 arqam-lite-admin.php:306
+msgid "App Secret"
+msgstr ""
+
+#: arqam-lite-admin.php:231 arqam-lite-admin.php:312 arqam-lite-admin.php:359
+#: arqam-lite-admin.php:439 arqam-lite-admin.php:514 arqam-lite-admin.php:542
+#: arqam-lite-admin.php:567 arqam-lite-admin.php:603 arqam-lite-admin.php:624
+#: arqam-lite-admin.php:652 arqam-lite-admin.php:676 arqam-lite-admin.php:700
+#: arqam-lite-admin.php:720 arqam-lite-admin.php:747 arqam-lite-admin.php:806
+msgid "Need Help?"
+msgstr ""
+
+#: arqam-lite-admin.php:231 arqam-lite-admin.php:312
+#, php-format
+msgid ""
+"Enter Your App ID and App Secret, <a href=\"%s\" target=\"_blank\">Click "
+"Here</a> For More Details."
+msgstr ""
+
+#: arqam-lite-admin.php:240 arqam-lite-admin.php:320 arqam-lite-admin.php:368
+#: arqam-lite-admin.php:450
+msgid "Submit"
+msgstr ""
+
+#: arqam-lite-admin.php:290 arqam-lite-admin.php:297
+msgid "Dribbble App info"
+msgstr ""
+
+#: arqam-lite-admin.php:337 arqam-lite-admin.php:344
+msgid "Twitter App info"
+msgstr ""
+
+#: arqam-lite-admin.php:349
+msgid "Consumer key:"
+msgstr ""
+
+#: arqam-lite-admin.php:353
+msgid "Consumer secret:"
+msgstr ""
+
+#: arqam-lite-admin.php:359
+#, php-format
+msgid ""
+"Enter your APP Consumer key and Consumer secret, <a href=\"%s\" target="
+"\"_blank\">Click Here</a> For More Details."
+msgstr ""
+
+#: arqam-lite-admin.php:417 arqam-lite-admin.php:424
+msgid "Instagram App info"
+msgstr ""
+
+#: arqam-lite-admin.php:429
+msgid "Consumer ID:"
+msgstr ""
+
+#: arqam-lite-admin.php:433
+msgid "Consumer Secret:"
+msgstr ""
+
+#: arqam-lite-admin.php:440
+#, php-format
+msgid ""
+"Enter Your App Client ID and App Client Secret, <a href=\"%s\" target="
+"\"_blank\">Click Here</a> For More Details."
+msgstr ""
+
+#: arqam-lite-admin.php:467
+msgid "Settings saved."
+msgstr ""
+
+#: arqam-lite-admin.php:471
+msgid "Arqam Lite Settings"
+msgstr ""
+
+#: arqam-lite-admin.php:471 arqam-lite-admin.php:818
+msgid "Need More?"
+msgstr ""
+
+#: arqam-lite-admin.php:479
+msgid ""
+"This Theme doesn't support Arqam Lite, Please Install one of TieLabs's Themes"
+msgstr ""
+
+#: arqam-lite-admin.php:493
+msgid "Facebook"
+msgstr ""
+
+#: arqam-lite-admin.php:498
+msgid "Page ID/Name"
+msgstr ""
+
+#: arqam-lite-admin.php:502 arqam-lite-admin.php:530 arqam-lite-admin.php:558
+#: arqam-lite-admin.php:582 arqam-lite-admin.php:619 arqam-lite-admin.php:640
+#: arqam-lite-admin.php:667 arqam-lite-admin.php:691 arqam-lite-admin.php:715
+#: arqam-lite-admin.php:735 arqam-lite-admin.php:781
+msgid "Text Below The Number"
+msgstr ""
+
+#: arqam-lite-admin.php:506 arqam-lite-admin.php:534 arqam-lite-admin.php:644
+#: arqam-lite-admin.php:739
+msgid "Access Token Key"
+msgstr ""
+
+#: arqam-lite-admin.php:509 arqam-lite-admin.php:537 arqam-lite-admin.php:647
+#: arqam-lite-admin.php:742
+msgid "Get Access Token"
+msgstr ""
+
+#: arqam-lite-admin.php:514
+#, php-format
+msgid ""
+"Enter Your Facebook Page Name or ID and click on Get Access Token to get "
+"your App Access Token, <a href=\"%s\" target=\"_blank\">Click Here</a> For "
+"More Details."
+msgstr ""
+
+#: arqam-lite-admin.php:521
+msgid "Twitter"
+msgstr ""
+
+#: arqam-lite-admin.php:526 arqam-lite-admin.php:636 arqam-lite-admin.php:663
+#: arqam-lite-admin.php:687 arqam-lite-admin.php:711 arqam-lite-admin.php:731
+msgid "Username"
+msgstr ""
+
+#: arqam-lite-admin.php:542
+#, php-format
+msgid ""
+"Enter Your Twitter Account Username, your APP Consumer key and Consumer "
+"secret, <a href=\"%s\" target=\"_blank\">Click Here</a> For More Details."
+msgstr ""
+
+#: arqam-lite-admin.php:549
+msgid "Google+"
+msgstr ""
+
+#: arqam-lite-admin.php:554
+msgid "Google+ ID"
+msgstr ""
+
+#: arqam-lite-admin.php:562 arqam-lite-admin.php:586 arqam-lite-admin.php:671
+#: arqam-lite-admin.php:695
+msgid "API Key"
+msgstr ""
+
+#: arqam-lite-admin.php:567
+#, php-format
+msgid ""
+"Enter Your Google+ page or profile ID and Google API Key, <a href=\"%s\" "
+"target=\"_blank\">Click Here</a> For More Details."
+msgstr ""
+
+#: arqam-lite-admin.php:573
+msgid "YouTube"
+msgstr ""
+
+#: arqam-lite-admin.php:578
+msgid "Username or Channel ID"
+msgstr ""
+
+#: arqam-lite-admin.php:590 arqam-lite-admin.php:785
+msgid "Type"
+msgstr ""
+
+#: arqam-lite-admin.php:603
+#, php-format
+msgid ""
+"Enter Your YouTube username or Channel ID, API Key and choose User or "
+"Channel from Type menu, <a href=\"%s\" target=\"_blank\">Click Here</a> For "
+"More Details."
+msgstr ""
+
+#: arqam-lite-admin.php:610
+msgid "Vimeo"
+msgstr ""
+
+#: arqam-lite-admin.php:615
+msgid "Channel Name"
+msgstr ""
+
+#: arqam-lite-admin.php:624
+msgid "Enter Your Vimeo Channel Name."
+msgstr ""
+
+#: arqam-lite-admin.php:631
+msgid "Dribbble"
+msgstr ""
+
+#: arqam-lite-admin.php:652
+#, php-format
+msgid ""
+"Enter Your Dribbble Account Username and the Access Token Key, <a href=\"%s"
+"\" target=\"_blank\">Click Here</a> For More Details."
+msgstr ""
+
+#: arqam-lite-admin.php:658
+msgid "SoundCloud"
+msgstr ""
+
+#: arqam-lite-admin.php:676
+#, php-format
+msgid ""
+"Enter Your SoundCloud Account Username and the API Key, <a href=\"%s\" "
+"target=\"_blank\">Click Here</a> For More Details."
+msgstr ""
+
+#: arqam-lite-admin.php:682
+msgid "Behance"
+msgstr ""
+
+#: arqam-lite-admin.php:700
+#, php-format
+msgid ""
+"Enter Your Behance Account Username and the API Key, <a href=\"%s\" target="
+"\"_blank\">Click Here</a> For More Details."
+msgstr ""
+
+#: arqam-lite-admin.php:706
+msgid "GitHub"
+msgstr ""
+
+#: arqam-lite-admin.php:720
+msgid "Enter Your Github Account Username."
+msgstr ""
+
+#: arqam-lite-admin.php:726
+msgid "Instagram"
+msgstr ""
+
+#: arqam-lite-admin.php:747
+#, php-format
+msgid ""
+"Enter Your Instagram Username and click on Get Access Token to get your App "
+"Access Token, <a href=\"%s\" target=\"_blank\">Click Here</a> For More "
+"Details."
+msgstr ""
+
+#: arqam-lite-admin.php:753
+msgid "RSS"
+msgstr ""
+
+#: arqam-lite-admin.php:777
+msgid "Feed URL"
+msgstr ""
+
+#: arqam-lite-admin.php:797
+msgid "Feedpress Json file URL"
+msgstr ""
+
+#: arqam-lite-admin.php:801
+msgid "Number of Subscribers"
+msgstr ""
+
+#: arqam-lite-admin.php:806
+#, php-format
+msgid ""
+"Enter Your Feed URl and the Feedpress Json file URL or Number of Subscribers "
+"manually <a href=\"%s\" target=\"_blank\">Click Here</a> For More Details."
+msgstr ""
+
+#: arqam-lite-admin.php:820
+msgid "Purchase the full version of Arqam plugin to get all following features"
+msgstr ""
+
+#: arqam-lite-admin.php:822
+msgid "Drag an Drop feature to sort icons as you wish !"
+msgstr ""
+
+#: arqam-lite-admin.php:823
+msgid "Option To set the Cache time to reduce load time and API calls."
+msgstr ""
+
+#: arqam-lite-admin.php:824
+msgid "More Layout options."
+msgstr ""
+
+#: arqam-lite-admin.php:825
+msgid "More Social Networks"
+msgstr ""
+
+#: arqam-lite-admin.php:829
+msgid "Spotify"
+msgstr ""
+
+#: arqam-lite-admin.php:830
+msgid "Goodreads"
+msgstr ""
+
+#: arqam-lite-admin.php:831
+msgid "Mixcloud"
+msgstr ""
+
+#: arqam-lite-admin.php:832
+msgid "Twitch"
+msgstr ""
+
+#: arqam-lite-admin.php:833
+msgid "Pinterest"
+msgstr ""
+
+#: arqam-lite-admin.php:834
+msgid "LinkedIn"
+msgstr ""
+
+#: arqam-lite-admin.php:835
+msgid "Tumblr"
+msgstr ""
+
+#: arqam-lite-admin.php:836
+msgid "Flickr"
+msgstr ""
+
+#: arqam-lite-admin.php:837
+msgid "Foursquare"
+msgstr ""
+
+#: arqam-lite-admin.php:838
+msgid "500px"
+msgstr ""
+
+#: arqam-lite-admin.php:839
+msgid "Vk"
+msgstr ""
+
+#: arqam-lite-admin.php:840
+msgid "Envato"
+msgstr ""
+
+#: arqam-lite-admin.php:841
+msgid "MailChimp List"
+msgstr ""
+
+#: arqam-lite-admin.php:842
+msgid "Vine"
+msgstr ""
+
+#: arqam-lite-admin.php:843
+msgid "Steam"
+msgstr ""
+
+#: arqam-lite-admin.php:844
+msgid "myMail plugin list"
+msgstr ""
+
+#: arqam-lite-admin.php:845
+msgid "Mailpoet plugin List"
+msgstr ""
+
+#: arqam-lite-admin.php:846
+msgid "Members"
+msgstr ""
+
+#: arqam-lite-admin.php:847
+msgid "Posts Number"
+msgstr ""
+
+#: arqam-lite-admin.php:848
+msgid "Comments Number"
+msgstr ""
+
+#: arqam-lite-admin.php:849
+msgid "bbPress topics, replies and forums counters"
+msgstr ""
+
+#: arqam-lite-admin.php:850
+msgid "BuddyPress groups counter"
+msgstr ""
+
+#: arqam-lite-admin.php:861 arqam-lite-admin.php:867
+msgid "Save Changes"
+msgstr ""
+
+#: arqam-lite-counters.php:151 arqam-lite.php:57
+msgid "Fans"
+msgstr ""
+
+#: arqam-lite-counters.php:163 arqam-lite-counters.php:175
+#: arqam-lite-counters.php:217 arqam-lite-counters.php:229
+#: arqam-lite-counters.php:241 arqam-lite-counters.php:253
+#: arqam-lite-counters.php:265 arqam-lite.php:58 arqam-lite.php:59
+#: arqam-lite.php:60 arqam-lite.php:61 arqam-lite.php:62 arqam-lite.php:63
+#: arqam-lite.php:64
+msgid "Followers"
+msgstr ""
+
+#: arqam-lite-counters.php:188 arqam-lite-counters.php:205
+#: arqam-lite-counters.php:277 arqam-lite.php:65 arqam-lite.php:66
+#: arqam-lite.php:67
+msgid "Subscribers"
+msgstr ""

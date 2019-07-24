@@ -1,0 +1,12 @@
+*** Arqam Lite Changelog ***
+-------------------------------------------------------------------------
+
+Version 1.0.2 - 10-09-2018
+- Fixed: Facebook Counter issue.
+
+
+Version 1.0.1 - 15-04-2018
+- Updated: Dribbble API.
+
+Version 1.0.0
+- First release

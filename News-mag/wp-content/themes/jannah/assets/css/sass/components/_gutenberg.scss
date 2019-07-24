@@ -1,0 +1,109 @@
+
+// Gutenberg blocks fixes in normal page layout (page with sidebar)
+.entry{
+	// gallery
+	.wp-block-gallery{
+		padding: 0;
+		margin: 0 -8px 17px; 
+	}
+
+	// Blockquotes
+	.wp-block-quote,
+	.wp-block-pullquote {
+		background: transparent;
+		color: $base-color;
+		font-size: 13px;
+
+		cite{
+			display: inline;
+		}		
+		
+		&:before{
+			display: none;
+		}
+
+		&.alignfull{
+			padding-left: 10px;
+			padding-right: 10px;
+		}
+	}	
+	
+	.wp-block-pullquote{
+		margin-bottom: 25px;
+	}
+	
+	.wp-block-quote{
+		padding: 0 1em;
+		text-transform: uppercase;
+
+		&.is-large{
+			cite{
+				display: block;
+			}
+		}
+	}
+
+	// Separator
+	.wp-block-separator{
+		margin: 1.65em auto;
+	}
+
+	.alignfull,
+	.alignwide{
+		margin: 1em 0;
+	}
+
+	.wp-block-columns{
+		margin: 0 -10px;
+
+		> div{
+			padding: 0 10px;
+		}
+	}
+
+	// Cover Image fix
+	.wp-block-cover-image{
+		display: flex !important;
+	}
+}
+
+// alignWide and alignfull in one-column or fullwidth page layout.
+@include breakpoint(sm){
+	.full-width.magazine2,
+	.one-column-no-sidebar.magazine2{
+		.entry{
+			.alignfull {
+				margin-left: calc(50% - 50vw);
+				margin-right: calc(50% - 50vw);
+				width: auto;
+				max-width: 1000%;
+			}
+
+			.alignwide {
+				margin-left: calc(25% - 25vw);
+				margin-right: calc(25% - 25vw);
+				width: auto;
+				max-width: 1000%;
+			}
+
+			.alignwide img,
+			.alignfull img {
+				display: block;
+				margin: 0 auto;
+			}
+		}
+	}
+}
+
+// Gutenberg elements in dark skin
+.dark-skin{
+	.entry .wp-block-quote, 
+	.entry .wp-block-pullquote{
+		color: #fff;
+	}
+
+	.wp-block-pullquote cite, 
+	.wp-block-pullquote footer{
+		color: #6c7781;
+	}
+}

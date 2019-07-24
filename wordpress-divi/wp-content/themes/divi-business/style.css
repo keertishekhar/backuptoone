@@ -1,0 +1,331 @@
+/*
+Theme Name: Divi Business
+Theme URI: https://divilife.com/downloads/divi-business-child-theme/
+Version: 1.0
+Description: Divi Business is a multipurpose business child theme for the Divi Theme.
+Author: Divi Life — Tim Strifler
+Template: Divi
+Author URI: https://divilife.com
+License: GNU General Public License v2
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+*/
+
+
+
+
+#top-menu li a {
+    font-weight: 400;
+}
+#top-menu li {
+    padding-right: 30px;
+}
+.et_pb_section{background:#f9fcff;}
+#free-consultation{
+    padding: 0;
+    z-index:9;
+}
+#free-consultation .et_pb_row{padding:0}
+#free-consultation .et_pb_promo{position:absolute;z-index:3;bottom: -159px;width: 460px;box-shadow:0 0 60px rgba(66,221,205,0.5)}
+#free-consultation .et_pb_promo .et_pb_module_header{position:relative}
+#free-consultation .et_pb_promo .et_pb_module_header:after{content:'';height:2px;width:120px;display:block;background:#fff;right:20px;position:absolute;bottom:28px;}
+.baseline{margin-bottom:15px;position:relative;font-size:35px;}
+.baseline:after{content:'';height:3px;width:70px;background:#42ddcd;display:block;margin-top:20px}
+#our-service .et_pb_blurb{box-shadow: inset  0 0 20px #222 ;margin: 0 0% 0px 0;}
+#our-service .et_pb_column_1_3{transition: .9s all;z-index:2}
+#our-service .et_pb_column_1_3:hover{background:#42ddcd;margin-left:-1.5%;margin-right:-1.4%;width:36.22%;margin-top: 0;z-index:6}
+#our-service .et_pb_column_1_3 .et_pb_blurb{transition: .7s all;background:#fff}
+#our-service #serv-row-one{margin-bottom:-40px}
+#our-service #serv-row-two {clear: both;top:-30px
+    }
+    #our-service .et_pb_column_1_3:last-child{}
+#our-service .et_pb_column_1_3:last-child:hover{background:#42ddcd;margin-left:-15px;width:33.3%;position:relative;margin-right:0px}
+#our-service .et_pb_column_1_3:first-child:hover{background:#42ddcd;margin-right:-15px;width:33.3%;position:relative;left:0px;margin-left:15px;color:white;}
+#our-service .et_pb_column_1_3:hover .et_pb_blurb{margin:0% 0px 0px -10px;box-shadow:none;padding-top:40px;padding-bottom:40px;height:100%;background:transparent;padding:30px;background:#42ddcd;}
+#our-service .et_pb_column_1_3:hover .et_pb_blurb h4{color:#fff}
+#our-service .et_pb_column_1_3:hover .et_pb_blurb p{color:#fff;padding-left: 20px;}
+#our-service .et_pb_column_1_3:hover .et_pb_blurb .et-pb-icon{color:#fff!important}
+#our-service .et_pb_column_1_3 .et_pb_module_header:after{content:'';height:2px;width:70px;background:#42ddcd;display:block;margin:10px auto}
+#our-service .et_pb_column_1_3:hover .et_pb_module_header:after{background:#fff;display:block;margin:10px auto}
+#behind-the-story p{max-width:400px}
+#behind-the-story .et_pb_button {
+    padding: 12px 35px!important;
+}
+
+#our-team .et_pb_column_1_3 .et_pb_team_member_image{margin-right:0;display: block;max-width: 100%;margin-bottom: 0;}
+#our-team .et_pb_column_1_3 .et_pb_team_member_image img{width:100%}
+#our-team .et_pb_team_member_description{position:absolute;top:20%;padding: 0 20px;opacity:0;transition:0.8s all;}
+#our-team .et_pb_team_member:hover .et_pb_team_member_description{opacity:1}
+#our-team .et_pb_team_member:hover .et_pb_team_member_image{opacity:0.2}
+#our-team .et_pb_team_member .et_pb_team_member_image{transition:0.8s all;}
+#our-team .et_pb_team_member{position:relative;}
+
+.header-content p span{color:#42ddcd}
+#our-pricing .et_pb_pricing_heading{background:none}
+#our-pricing .et_pb_pricing_heading h2{text-transform:uppercase;margin-top:30px;font-size:40px!important;color:#42ddcd;}
+#our-pricing .et_pb_featured_table .et_pb_pricing_heading h2{color:#fff}
+#our-pricing .et_pb_pricing_table {
+    border: none;
+    background-color: #fff;
+    text-align: center;
+    box-shadow: 0 0 50px #eee;
+    margin-top: 50px;
+    border-radius: 5px;
+}
+#our-pricing .et_pb_featured_table {
+    position: relative;
+    z-index: 10;
+    margin-top: 0;
+    background-color: #42ddcd;
+    box-shadow:0 0 120px #deedde;
+    padding-top:20px;
+    padding-bottom: 50px;
+}
+#our-pricing .et_pb_sum{color:#5f6b81;font-weight:800;font-size:60px}
+#our-pricing .et_pb_featured_table .et_pb_sum{color:#fff;font-weight:800;font-size:60px}
+#our-pricing .et_pb_frequency:before{content:'Per';/* left: 0; */height: auto;font-size: 20px;text-align: center;background:#fff;padding-right:8px;margin-right:-10px;z-index:999;position:relative}
+#our-pricing .et_pb_frequency{/* text-indent:-99999px; */font-size: 20px;display:block;letter-spacing:3px;color: #42ddcd;}
+#our-pricing .et_pb_featured_table .et_pb_dollar_sign {color:#fff;}
+#our-pricing .et_pb_featured_table .et_pb_frequency:before{background:#42ddcd;color:#fff}
+#our-pricing .et_pb_featured_table .et_pb_frequency{color:#fff;margin-bottom: 20px;}
+#our-pricing .et_pb_dollar_sign {
+    position: relative;
+    margin-left: 0px!important;
+    font-size: 55px;
+    font-weight: 600;
+    margin-top:15px;
+    color:#5f6b81;
+}
+.et_pb_pricing_content_top {
+    position: relative;
+    padding-bottom: 30px;
+    border-bottom: none;
+}
+.et_pb_pricing li {
+    position: relative;
+    padding: 0 0 1.6em 0px;
+    line-height: 1.6em;
+    text-align:center;
+    font-size:18px
+}
+#our-pricing .et_pb_featured_table .et_pb_pricing li {color:#fff}
+#our-pricing .et_pb_featured_table .et_pb_pricing li.et_pb_not_available{opacity:0.6}
+#our-pricing .et_pb_pricing .et_pb_pricing_table_button{padding:12px 35px!important;}
+#our-pricing .et_pb_pricing .et_pb_featured_table .et_pb_pricing_table_button{background:#fff!important;color: #42ddcd!important;margin-top: 30px;}
+#our-pricing .et_pb_pricing .et_pb_featured_table .et_pb_pricing_table_button:hover{background:#42ddcd!important;color: #fff!important;border:1px #fff solid!important;}
+
+#latest-news .entry-featured-image-url{margin-bottom:0}
+#latest-news article .entry-title{padding:20px 20px 0;background:#fff;font-weight:600}
+#latest-news article .post-meta{padding:0px 20px;background:#fff;margin-bottom: 0;}
+#latest-news article .post-meta a{color: #42ddcd}
+#latest-news article .post-content{padding:10px 20px;background:#fff}
+#latest-news article{box-shadow:0 0 100px #ccc}
+
+#what-customers-say .baseline:after {
+    content: '';
+    height: 3px;
+    width: 70px;
+    background: #42ddcd;
+    display: block;
+    margin: 20px auto 0;
+}
+#what-customers-say .et_pb_slide_content h3{color:#bb113e;margin-top:40px;font-size:30px}
+#what-customers-say .et_pb_slide_content h4{}
+#what-customers-say .et_pb_slide_content p.review:before{content:"";background:url(./images/left-quote.png) no-repeat;padding: 40px 50px;background-size: 85px;position: absolute;/* top:-20px; */left: -4px;margin-top: -38px;}
+#what-customers-say .et_pb_slide_content p.review{margin-top:20px;padding: 0 90px;}
+#what-customers-say .et_pb_slide_content p.review:after{
+    content: "";
+    background: url(./images/right-quote.png) no-repeat;
+    padding: 40px 50px;
+    background-size: 85px;
+    position: absolute;
+    /* top: -20px; */
+    right: -4px;
+    margin-top: 10px;
+}
+.et_pb_bg_layout_light .et-pb-controllers .et-pb-active-control {
+    background: #333!important;
+}
+#what-customers-say .et_pb_bg_layout_light .et-pb-controllers a{height:12px;width:12px;background: #bb113e;}
+#what-customers-say .et-pb-controllers {
+    bottom: 40px;
+    left: 0;
+    margin-left: -5px;
+}
+#reply-title{
+	font-weight: 800;
+    text-transform: uppercase;
+    font-size: 35px;
+}
+.et_pb_title_meta_container a{color:#42ddcd!important;}
+#get-started .et_pb_button{padding:12px 35px!important}
+#logos img{margin:0 20px}
+#main-footer .fwidget{float:none}
+#main-footer .widget_media_image{margin-bottom:20px}
+.widget_nav_menu ul li:before{display:none}
+.widget_nav_menu ul li a{font-weight:400}
+.widget_nav_menu ul li a:hover{color:#42ddcd!important}
+.widget_nav_menu ul li{padding-left:0!important;margin-bottom: 7px;text-transform:uppercase;}
+.social-icons{margin-top:20px}
+.social-icons img{margin-right: 25px;}
+#main-footer .et-social-icons{display:none}
+#main-footer .footer-widget h4{margin-bottom:15px;font-weight:6600}
+#et-footer-nav{float:right;width:50%;text-align:right;}
+.bottom-nav {
+    padding: 0;
+}
+.bottom-nav li a{color:#fff;text-transform:uppercase;font-weight:400}
+#footer-info {
+    float: left;
+    padding-bottom: 10px;
+    color: #fff;
+    text-align: left;
+}
+#footer-bottom {
+    padding: 20px 0 15px;
+}
+.bottom-nav li.current-menu-item>a{color:#42ddcd;}
+.et_contact_bottom_container {
+    float: left;
+    text-align: left;
+}
+
+#blogroll article{background:#fff;box-shadow:0 0 120px #ddd}
+#sbar{box-shadow:0 0 120px #ddd}
+#blogroll article h2{padding: 0px 30px 5px;}
+#blogroll article .post-meta{padding:0px 30px;}
+#blogroll article .post-meta a{color:#42ddcd;}
+#blogroll article .post-content{padding: 0px 30px 30px;}
+#blogroll article .post-content p{border-top:1px #666 solid;padding: 20px 0px 0px;}
+#sbar .widget_search input#searchsubmit{margin-right:20px;background:none;border:none;background:url(/wp-content/uploads/2018/07/search-icon.png) no-repeat right center;text-indent:-99999px}
+#sbar .widget_search input#s{border:1px #999 solid;}
+#sbar h4.widgettitle{text-transform:uppercase;color:#49556b;font-weight:800;font-size: 24px;}
+#sbar p{font-weight:400}
+#sbar .widget_search{border-bottom:none!important}
+#sbar .et_pb_widget{border-bottom:1px #ddd solid;padding-bottom:20px;margin-bottom:30px}
+#sbar .cat-item{text-transform:uppercase;letter-spacing:1px;margin-top:15px;font-size:16px}
+.widget_archive li{text-transform:uppercase}
+.widget_recent_entries li{margin-top:5px;font-size:16px!important;margin-bottom: 15px!important;font-weight:600}
+#sbar .post-date{font-size:14px;font-weight:500;display:block}
+#sbar .et_pb_widget:last-child {
+    border-bottom: none;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+@media (max-width:1350px){
+	#free-consultation .et_pb_promo .et_pb_module_header {
+    position: relative;
+    padding-bottom: 20px;
+    margin-bottom: 10px;
+	}
+#free-consultation .et_pb_promo .et_pb_module_header:after {
+    content: '';
+    height: 2px;
+    width: 120px;
+    display: block;
+    background: #fff;
+    right: auto;
+    position: absolute;
+    bottom: 5px;
+    left: 0;
+}
+}
+@media(max-width:1200px){
+	#main-header .container, #main-footer .container{max-width:90%;width:90%}
+	#our-service .et_pb_column_1_3:hover .et_pb_blurb p{margin:0 15px}
+	#et-footer-nav {
+    float: none;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 5px;
+}
+	#footer-info {
+    float: none;
+    padding-bottom: 10px;
+    color: #fff;
+    text-align: center;
+    width: 100%;
+    font-size: 14px;
+}
+	#free-consultation .et_pb_promo {
+    width: auto; 
+	margin-left: 0!important;
+	}
+	#why-choose-us .et_pb_column_1_2:last-child{padding-right:5%!important;}
+	
+}
+@media (max-width:980px){
+	#why-choose-us .et_pb_column{padding-left:10%;padding-right:10%}
+	#why-choose-us img{margin-bottom:50px}
+	#our-service .et_pb_column_1_3:hover{margin-left:0!important;margin-right:0!important;}
+	#our-service .et_pb_column_1_3:hover .et_pb_blurb {
+		margin: 0;
+	}
+	#what-customers-say .et-pb-controllers {
+    bottom: 0;
+    left: 0;
+    margin-left: -5px;
+}
+	#what-customers-say .et_pb_slide_content p.review:after {
+    /* top: 0; */
+    right: -10px;
+    margin-top: 0;
+}
+	#what-customers-say .et_pb_slide_content p.review:before {
+    left: -4px;
+    margin-top: 0;
+}
+	#get-started h3, #get-started p{text-align:center}
+	.baseline{margin-bottom:0}
+	#our-service .et_pb_column_1_3:last-child:hover {
+    right: 0px;
+}
+	#why-choose-us{padding-bottom:0}
+	#mobile_menu{background-color: rgba(73,85,107,0.8);}
+}
+@media (max-width:769px){
+	#free-consultation .et_pb_promo {
+    position: static;
+}
+	#free-consultation {
+    padding: 60px 0 0;
+    z-index: 9;
+}
+	#our-service #serv-row-two {
+    clear: both;
+    top: 0;
+}
+	#why-choose-us {padding-top:20px;}
+	.footer-widget {
+    color: #ffffff;
+    text-align: center;
+}
+	#latest-news article .entry-title{padding:20px 30px 0;}
+	#latest-news article .post-meta{padding:0px 30px;}
+	#latest-news article .post-content{padding:10px 30px}
+	#what-customers-say .et_pb_slide_content p.review:after {
+    /* top: 0; */
+    right: 0px;
+    margin-top: -30px;
+    padding: 40px 30px;
+    background-size: 45px;
+}
+	#what-customers-say .et_pb_slide_content p.review:before {
+		left: -4px;
+		margin-top: 0;
+		background-size: 45px;
+}
+	#our-pricing .et_pb_pricing_table {
+    max-width: 400px!important;
+    margin: 20px auto!important;
+}
+}
+@media (max-width:480px){
+	.et_pb_fullwidth_header .et_pb_fullwidth_header_container .et_pb_button_two, .et_pb_fullwidth_header .et_pb_fullwidth_header_container .et_pb_button_one {
+    margin-left: 0px;
+    display: block!important;
+    text-align: center;
+}
+	.baseline {
+    font-size: 30px;
+}
+}

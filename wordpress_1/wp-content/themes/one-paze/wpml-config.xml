@@ -1,0 +1,29 @@
+<wpml-config>
+<admin-texts>
+<key name="theme_mods_one-paze">
+    <key name="slider_readmore_text" />
+    <key name="about_section_menu_title" />
+    <key name="about_section_title" />
+    <key name="portfolio_section_menu_title" />
+    <key name="portfolio_section_title" />
+    <key name="portfolio_section_view_all" />
+    <key name="services_section_menu_title" />
+    <key name="services_section_title" />
+    <key name="services_section_descr" />
+    <key name="blog_section_menu_title" />
+    <key name="blog_section_title" />
+    <key name="blog_section_view_all" />
+    <key name="cta_section_menu_title" />
+    <key name="cta_section_descr" />
+    <key name="cta_buton_text" />
+    <key name="testimonial_section_menu_title" />
+    <key name="testimonial_section_title" />
+    <key name="team_section_menu_title" />
+    <key name="team_section_title" />
+    <key name="contact_section_menu_title" />
+    <key name="contact_section_email" />
+    <key name="contact_section_address" />
+    <key name="contact_section_phone" />
+</key>
+</admin-texts>
+</wpml-config>

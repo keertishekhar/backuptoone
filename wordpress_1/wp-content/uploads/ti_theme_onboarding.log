@@ -1,0 +1,16 @@
+[16/May/2019:10:13:12] (ℹ️): WordPress Instance Info:
+[16/May/2019:10:13:12] (ℹ️): Home URL : http://localhost/wordpress_0
+[16/May/2019:10:13:12] (ℹ️): Site URL : http://localhost/wordpress_0
+[16/May/2019:10:13:12] (ℹ️): WordPress Version : 5.2
+[16/May/2019:10:13:12] (ℹ️): Onboarding Version : 1.3.6
+[16/May/2019:10:13:12] (ℹ️): Multisite : No
+[16/May/2019:10:13:12] (ℹ️): Server Info : Apache/2.4.37 (Win64) PHP/7.2.14
+[16/May/2019:10:13:12] (ℹ️): PHP Version : 7.2.14
+[16/May/2019:10:13:12] (ℹ️): HTTPS : No
+[16/May/2019:10:13:12] (ℹ️): PHP Max Execution Time : 120
+[16/May/2019:10:13:12] (ℹ️): PHP Max Input Vars : 2500
+[16/May/2019:10:13:12] (ℹ️): Max Upload Size : 2097152
+[16/May/2019:10:13:12] (ℹ️): Plugins:
+[16/May/2019:10:13:12] (ℹ️): [PLUGIN] Akismet Anti-Spam : v4.1.2 (Automattic)
+[16/May/2019:10:13:12] (ℹ️): [PLUGIN] Elementor : v2.5.15 (Elementor.com)
+[16/May/2019:10:13:12] (ℹ️): [PLUGIN] Orbit Fox Companion : v2.8.3 (Themeisle)

@@ -1,0 +1,352 @@
+[v-cloak] {
+	display: none;
+}
+/*---------------------------------
+		Demos
+---------------------------------*/
+body {
+	background-color: #D8D8D8;
+}
+.demos-page-wrap {
+max-width: 1160px;
+margin-top: 50px;
+margin-left: 40px;
+}
+.demos-page-wrap a:active,
+.demos-page-wrap a:focus {
+box-shadow: none;
+}
+.demos-wrap {
+background-color: #EEEEEE;
+border-bottom: 11px solid #31363D;
+}
+.demos-wrap .title {
+height: 53px;
+background-color: #23272D;
+display: flex;
+align-items: center;
+justify-content: space-between;
+padding: 0 15px;
+}
+.demos-wrap .title h2 {
+color: #fff;
+text-transform: uppercase;
+font-size: 24px;
+font-weight: 700;
+}
+.demos-wrap .title h2 span {
+color: #A4ABB6;
+}
+.demos-wrap .content {
+	padding: 30px;
+}
+.demo-packs {
+display: flex;
+flex-wrap: wrap;
+margin: 0 -10px;
+}
+.demo-packs .pack {
+	width: 25%;
+	margin-bottom: 40px;
+	box-sizing:border-box;
+	padding: 0 10px;
+	position: relative;
+}
+.demo-packs .pack:nth-last-child(-n+4) {
+	margin-bottom: 0;
+}
+.demo-packs .pack .demo-thumb {
+	position: relative;
+}
+.demo-packs .pack img {
+	width: 100%;
+	display: block;
+}
+.demo-packs .pack .demo-thumb .bar {
+	height: 6px;
+	width: 100%;
+	position: absolute;
+	background-color: #1B1E22;
+	left: 0;
+	bottom: 0;
+	transition: 0.3s;
+}
+.demo-packs .pack .demo-thumb .bar .progress {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	background-color: #93B265;
+	transition: 0.8s;
+	max-width: 100%;
+}
+.stripped {
+	background-image: linear-gradient(45deg, rgba(255,255,255, .15) 25%, transparent 25%, transparent 50%, rgba(255,255,255, .15) 50%, rgba(255,255,255, .15) 75%, transparent 75%, transparent 100%);
+	background-size: 19px 19px;
+	animation: barberpole 2s linear infinite;
+}
+.uninstall.stripped {
+	animation: barberpole 2s linear infinite reverse;
+}
+.demo-packs .pack .demo-thumb .bar.installed {
+	height: 30px;
+	background: #93B265;
+	width: 100% !important;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: #fff;
+	font-size: 12px;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+.demo-packs .pack .demo-thumb .bar.installed .progress {
+	opacity: 0;
+}
+.demo-packs .pack .demo-thumb .bar.installed .installed-label {
+	display: flex;
+	align-items: center;
+}
+.demo-packs .pack .demo-thumb .bar.installed .installed-label svg {
+	margin-right: 5px;
+}
+
+.pack-info {
+	background-color: #fff;
+	padding: 13px;
+	padding-bottom: 10px;
+}
+.pack-info .pack-name {
+	font-size: 18px;
+	font-weight: 700;
+	margin: 0;
+	margin-bottom: 2px;
+}
+.pack-info .pack-cats {
+	font-size: 13px;
+	font-weight: 300;
+	text-transform: uppercase;
+	line-height: 0;
+}
+.pack .buttons {
+	display: flex;
+}
+.pack .buttons .action-button {
+	flex: 1;
+	background-color: #9CA1A9;
+	display: flex;
+	height: 34px;
+	justify-content: center;
+	align-items: center;
+	color: #fff;
+	text-decoration: none;
+	font-size: 13px;
+	text-transform: uppercase;
+}
+.pack .buttons .action-button svg {
+	margin-right: 5px;
+}
+.pack .buttons .action-button.preview:hover {
+	background-color: #639CB9;
+}
+.pack .buttons .action-button.install {
+	background-color: #6C7075;
+}
+.pack .buttons .action-button.uninstall {
+	background-color: #B24D4D;
+}
+
+/*---------------------------------
+						Animations
+---------------------------------*/
+/* stripes animation  */
+@keyframes barberpole {
+  from {
+    background-position: 0 0;
+  }
+  to {
+    background-position: 58px 20px;
+  }
+}
+
+.demos-backdrop {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0,0,0, 0.4);
+		z-index: 100000;
+		overflow: hidden;
+}
+.demos-popup {
+	position: fixed;
+	z-index: 100001;
+	max-width: 630px;
+	background-color: #fff;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	text-align: center;
+	padding: 15px;
+}
+.demos-popup .title {
+	background-color: #3E444D;
+	margin: 0;
+	height: 63px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: #fff;
+	font-size: 23px;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+.demos-popup.uninstall .title,
+.demos-popup .title.required {
+	 background-color: #AF1111;
+ }
+.demos-popup .content {
+	padding: 28px;
+	border: 1px solid #E6E6E6;
+}
+.demos-popup .content p {
+	color: #6C7075;
+	font-size: 15px;
+	font-weight: 300;
+	margin: 0;
+	margin-bottom: 20px;
+}
+.demos-popup .content p:last-child {
+	margin-bottom: 0;
+}
+.demos-popup .content .note {
+	background-color: #E6E6E6;
+	padding: 8px 30px;
+	color: #639CB9;
+}
+.demos-popup .content .note.warning {
+	color: #805656;
+}
+.demos-popup .buttons {
+	 display: flex;
+	 justify-content: center;
+}
+.demos-popup .buttons > a {
+	background-color: #9CA1A9;
+	height: 40px;
+	min-width: 140px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: #fff;
+	text-transform: uppercase;
+	text-decoration: none;
+	font-size: 17px;
+	font-weight: 600;
+	transition: .3s;
+}
+.demos-popup .buttons .no {
+	margin-left: 4px;
+	background-color: #6C7075;
+}
+.demos-popup .buttons .yes:hover {
+	background-color: #93B265;
+}
+.demos-popup .buttons .no:hover {
+	background-color: #B24D4D;
+}
+
+.blue {
+	color: #639CB9;
+}
+.green {
+	color: #93B265;
+}
+.red {
+	color: #B24D4D;	
+}
+
+/*---------------------------------
+			Plugins
+---------------------------------*/
+.demos-popup ul.plugins {
+    text-align: left;
+    padding: 0 20px;
+    list-style-type: disc;
+    text-transform: capitalize;
+    font-size: 15px;
+    font-weight: 300;
+    margin-bottom: 30px;
+}
+
+
+/*---------------------------------
+			Loading
+---------------------------------*/
+.demo-loading {
+	display: flex;
+	flex-direction: column;
+	height: 200px;
+	justify-content: center;
+	align-items: center;
+}
+.demo-loading h3 {
+	font-size: 18px;
+	font-weight: 300;
+	text-transform: uppercase;
+}
+@keyframes lds-eclipse {
+	0% {
+	  -webkit-transform: rotate(0deg);
+	  transform: rotate(0deg);
+	}
+	50% {
+	  -webkit-transform: rotate(180deg);
+	  transform: rotate(180deg);
+	}
+	100% {
+	  -webkit-transform: rotate(360deg);
+	  transform: rotate(360deg);
+	}
+  }
+
+  @-webkit-keyframes lds-eclipse {
+	0% {
+	  -webkit-transform: rotate(0deg);
+	  transform: rotate(0deg);
+	}
+	50% {
+	  -webkit-transform: rotate(180deg);
+	  transform: rotate(180deg);
+	}
+	100% {
+	  -webkit-transform: rotate(360deg);
+	  transform: rotate(360deg);
+	}
+  }
+
+  .lds-eclipse {
+	position: relative;
+  }
+
+  .lds-eclipse div {
+	position: absolute;
+	-webkit-animation: lds-eclipse 0.5s linear infinite;
+	animation: lds-eclipse 0.5s linear infinite;
+	width: 160px;
+	height: 160px;
+	top: 20px;
+	left: 20px;
+	border-radius: 50%;
+	box-shadow: 0 10px 0 0 #4ba8cf;
+	-webkit-transform-origin: 80px 85px;
+	transform-origin: 80px 85px;
+  }
+
+  .lds-eclipse {
+	width: 50px !important;
+	height: 50px !important;
+	-webkit-transform: translate(-25px, -25px) scale(0.25) translate(25px, 25px);
+	transform: translate(-25px, -25px) scale(0.25) translate(25px, 25px);
+  }
